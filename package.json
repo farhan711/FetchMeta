@@ -1,0 +1,21 @@
+{
+  "name" : "News Aggregator",
+  "version" : "0.6.0",
+  "description" : "A node.js library to extract metadata and Title with Thumbmail from url.",
+  "author" : [ "farhan ansari <farhan@istuffs.in>" ],
+  "keywords" : [ "image", "jpeg", "jpg", "url"],
+  "main" : "./lib/exif",
+  "repository" : {
+    "type" : "git",
+    "url" : "http://github.com/farhan711/FetchMeta"
+  },
+  "dependencies": {
+    "debug": "^2.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.4"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec test/*-test.js"
+  }
+}
